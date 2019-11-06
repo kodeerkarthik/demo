@@ -1,0 +1,112 @@
+.newsbody {
+    background: url('../Images/newsbg.jpg');
+    background-size: cover;
+}
+.newssearch {
+    width: 80%;
+    background: transparent;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 2px solid rgb(248, 246, 248);
+    box-shadow: 2px 2px 5px rgb(32, 32, 32);
+}
+.newssearchbox {
+    width: 80%;
+    border-radius: 25px;
+    height: 40px;
+    border:none;
+    background: transparent;
+    color: white;
+    padding-left: 20px;
+}
+.newssearchbtn {
+    border-radius: 0 20px 24px 0;
+    width: 20%;
+    background-color: white;
+    height: 38px;
+    border: none;
+    border-top:3px solid white;
+}
+.newscard {
+    background: transparent;
+    border-radius: 50%;
+}
+.all_news_div {
+    margin:100px 0;
+}
+
+.ncard{ 
+    margin: 25px 0;
+    text-align: left;
+    background: white;
+    border-radius: 5px;
+    padding: 10px 0;
+    box-shadow: 2px 1px 10px rgb(247, 159, 174);
+}
+.cat_span {
+    font-size: 30px;
+}
+.head1 {
+    font-size: 50px;
+}
+.cat_txt {
+    text-align: left;
+    padding: 40px;
+}
+.cat_span_count {
+    font-size: 30px;
+    float: right;
+}
+.optmt_dropdown{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(245, 7, 86);
+    background: rgb(158, 154, 154);
+    border-radius: 20px;
+    padding: 0 20px;
+    border: 2px solid rgb(73, 73, 73);
+}
+.opt_btn {
+    margin-top: 30px;
+    width: 55%;
+    height: 40px;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 10px 60px;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(245, 7, 86);
+    margin-left: 23%;
+}
+option {
+    margin: 50px;
+}
+.numbtn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(131, 7, 104);
+    /* border: 1px solid black; */
+    margin: 20px;
+    border-radius: 50%;
+}
+.news_img {
+    width:50px;
+    height:100px;
+}
+.news_imges {
+    width: 100%;
+    height: auto;
+}
+.news_name {
+    padding: 14%;
+    color: rgb(8, 8, 8);
+    text-shadow: 2px 2px 1px rgb(12, 12, 12);
+    font-size: 50px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px white;
+}

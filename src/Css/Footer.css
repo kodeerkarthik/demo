@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.footer_body {
+    padding-top: 20px;
+    /* padding-bottom: 50px; */
+    width: 100%;
+    /* height: 250px; */
+    background: url('../Images/footer.png');
+    background-size: cover;
+    padding-bottom: 20px;
+    border-top: 2px solid rgb(5, 141, 165);
+}
+/* .s-m { */
+    /* background: #2e2d2d; */
+    /* position: absolute; */
+    /* margin: 0px 35%; */
+/* }  */
+.s-m a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #eb0a67;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+}
+.s-m a:hover{
+    background: #e67e22;
+    box-shadow: 2px 2px 50px #ffffff;
+}
+.s-m a i{
+    transition: 0.4s all;
+}
+.s-m a:hover > i {
+    transform: scale(1.6) rotate(25deg); 
+}
+.copyright {
+    font-size: 20px;
+    color: white;
+}
+.foot_search {
+    background: transparent;
+    width: 90%;
+    height: 40px;
+    border: 0px solid transparent;;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    padding-left:10px; 
+    font-size: 18px;
+}
+.foot_search_box {
+    background: rgb(84, 85, 85);
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    border-radius: 20px;
+    padding-right: 1%;
+    border: solid 2px rgb(235, 7, 83);
+}
+.foot_search_btn {
+    color: #f80067;
+    font-size: 100%;
+    line-height: 20px;
+}
+.foot_p {
+    color:#f80067;
+    font-size: 15px;
+    font-weight: bold;
+}
